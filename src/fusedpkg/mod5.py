@@ -53,7 +53,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.model_selection import KFold
 
-from mypkg.additional_functions.mod1 import choose_ref_modality, reorder_df_columns
+from fusedpkg.additional_functions.mod1 import choose_ref_modality, reorder_df_columns
 
 
 # -----------------------------------------------------------------------------

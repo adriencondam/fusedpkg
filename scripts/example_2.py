@@ -1,7 +1,7 @@
 # from mypkg.mod2_refactored_parallel import GridSearch_Generalised
         # , GridSearch_Group, GridSearch_Fused
 
-from mypkg.mod5 import GridSearch_Generalised, GridSearch_Group, GridSearch_Fused
+from fusedpkg.mod5 import GridSearch_Generalised, GridSearch_Group, GridSearch_Fused
 
 
 import numpy as np
