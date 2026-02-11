@@ -1,0 +1,3 @@
+from mypkg.mod1 import compute_g_fused_pen, compute_fused_pen, group_modalities_after_fused, Compute_Poisson_Deviance, plot_beta_for_lambda_values, custom_glm_with_fused_penalty
+
+import pandas as pd
