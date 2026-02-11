@@ -1,5 +1,5 @@
 [project]
-name = "mypkg"
+name = "fusedpkg"
 version = "0.1.0"
 description = "A Python package that allows to run fused-lasso penalised GLMs"
 readme = "README.md"
