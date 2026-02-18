@@ -2,17 +2,44 @@
 
 `fusedpkg` provides fused/group-penalized generalized linear model tooling.
 
-## Installation
+## Getting Started (With `uv`)
+
+These steps are written for first-time users.
+
+1. Install `uv` (once):
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install uv
+```
+
+2. Clone the repository:
 
 ```bash
 git clone <repo-url>
 cd fusedpkg
-python -m venv .venv
+```
+
+3. Create and activate a virtual environment:
+
+```bash
+uv venv
 # Linux/macOS:
 source .venv/bin/activate
 # Windows PowerShell:
 # .venv\Scripts\Activate.ps1
-pip install -e .[dev]
+```
+
+4. Install the project and development tools:
+
+```bash
+uv sync --extra dev
+```
+
+5. (Optional) verify the package imports:
+
+```bash
+uv run python -c "import fusedpkg; print('fusedpkg import OK')"
 ```
 
 ## Quickstart
@@ -46,11 +73,21 @@ model.fit(
 print(model.lambda_curve[["group_lambda", "Deviance_cv_test"]])
 ```
 
-## Development
+## Run Tests
 
 ```bash
-uv sync --extra dev
 uv run pytest -q
+```
+
+Run a single test module:
+
+```bash
+uv run pytest tests/test_mod1.py -q
+```
+
+## Development Checks
+
+```bash
 uv run ruff check .
 ```
 
