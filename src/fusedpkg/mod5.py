@@ -34,7 +34,7 @@ Notes
 -----
 - This module still depends on your project helpers:
   `choose_ref_modality` and `reorder_df_columns` from
-  `mypkg.additional_functions.mod1`.
+  `fusedpkg.additional_functions.mod1`.
 - The penalty types accepted are the same as in your original code:
   values should be "fused" or "g_fused" for each categorical variable key.
 
