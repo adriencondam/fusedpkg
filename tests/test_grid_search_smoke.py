@@ -2,7 +2,7 @@ import pandas as pd
 import pytest
 
 from fusedpkg import GridSearch_Fused, GridSearch_Generalised, GridSearch_Group
-from fusedpkg.glm_preprocessing import prepare_categorical_glm_data
+from fusedpkg.glm.preprocessing import prepare_categorical_glm_data
 
 
 def build_test_data() -> pd.DataFrame:
