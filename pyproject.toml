@@ -42,4 +42,3 @@ extend-exclude = [
 
 [tool.ruff.lint]
 select = ["E9", "F"]
-per-file-ignores = { "src/fusedpkg/mod5.py" = ["F811"] }
