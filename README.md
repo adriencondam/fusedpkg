@@ -46,7 +46,7 @@ uv run python -c "import fusedpkg; print('fusedpkg import OK')"
 
 ```python
 import pandas as pd
-from fusedpkg.mod5 import GridSearch_Group
+from fusedpkg import GridSearch_Group
 
 data = pd.DataFrame(
     {

@@ -1,7 +1,7 @@
-# from fusedpkg.mod5 import GridSearch_Generalised
+# from fusedpkg import GridSearch_Generalised
         # , GridSearch_Group, GridSearch_Fused
 
-from fusedpkg.mod5 import GridSearch_Generalised, GridSearch_Group
+from fusedpkg import GridSearch_Generalised, GridSearch_Group
 
 
 import numpy as np
